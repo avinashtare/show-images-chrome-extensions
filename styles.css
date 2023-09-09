@@ -1,0 +1,12 @@
+body{
+  width: 250px;
+  height: 250px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
