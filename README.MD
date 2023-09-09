@@ -1,7 +1,6 @@
 
 ## Image Show Extenstion
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
@@ -14,7 +13,7 @@ you can add this extension to get youtube thumbnails and many more.
 
 ## How To Add This Extenstion
 
-- Clone To Your Device
+- Clone To Your System
 `Git Clone https://github.com/avinashtare/show-images-chrome-extensions.git`
 
 ### Load To Google Extenstion
