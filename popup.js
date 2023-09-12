@@ -22,6 +22,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// redirect user by image src link 
+function redirectImageLink(){
+  let RedirectLink  = event.target.src;
+  window.open(RedirectLink, '_blank');
+}
+
 function changeH1Color() {
   var LinkImages = document.querySelectorAll("a");
 var images = document.querySelectorAll("img");
@@ -60,7 +66,7 @@ function loadImages(start, end) {
 		if (i >= imageContainer.length) {
 			break;
 		}
-		document.getElementById('image-container').innerHTML += `<img src='${imageContainer[i]}' class="image">`;
+		document.getElementById('image-container').innerHTML += `<img src='${imageContainer[i]}' class="image" onclick="redirectImageLink()">`;
 	}
 }
 
